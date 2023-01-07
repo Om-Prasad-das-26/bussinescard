@@ -1,0 +1,193 @@
+
+body{
+    background-image: url("https://i.ibb.co/M9zS5HJ/Dark-Green-Triangle-scale-Business-Card-Portrait-Presentation-169-3.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.card {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    position: absolute;
+    height: 220px;
+    width: 95%;
+    margin:0 auto;
+    left: 0;
+    right: 0;
+    top: -30px;
+    border-radius: 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, #223a34, #97d7e2);
+}
+
+.header img {
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    border-radius: 10%;
+    left: 70px;
+    top: 22px;
+}
+
+.header h3 {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 118px;
+    left: 90px;
+}
+
+.header p {
+    position: absolute;
+    font-family: sans-serif;
+    color: rgb(236, 233, 233);
+    font-size: 13px;
+    top: 166px;
+    left: 90px
+}
+
+.body {
+    position: absolute;
+    height: 126px;
+    left: 9px;
+    right: 6px;
+    top: 52%;
+    border-radius: 12px;
+}
+
+.body ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.body ul li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+}
+
+.body ul li p,
+h3,
+i {
+    position: absolute;
+}
+
+.body ul li h3 {
+    top: -20px;
+    left: 58px;
+    color: #2e534b;
+    
+}
+
+.body ul li p {
+    top: 10px;
+    left: 60px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #2e534b;
+}
+
+.body ul li i {
+    left: 8px;
+    top: 4px;
+    color: #16a085;
+    font-size: 26px;
+}
+
+.body ul li:nth-child(1) {
+    top: -26px;
+}
+
+.body ul li:nth-child(2) {
+    top: 36px;
+}
+
+.body ul li:nth-child(3) {
+    top: 98px;
+}
+
+.body ul li:nth-child(1) i {
+    left: 12px;
+}
+
+.body li:hover {
+    background-color: #84bb5a;
+    cursor: pointer;
+}
+
+.body li:hover i{color:#fff}
+.body li:hover h3{color:#fff}
+.body li:hover p{color:#fff}
+/*footer*/
+
+.footer {
+    position: absolute;
+    height: 80px;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    width:95%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, #1dd1a1, #1abc9c);
+}
+
+.footer ul {
+    position: absolute;
+    left: -70px;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.footer ul li i {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    transition: all .3s ease-in;
+}
+
+.footer ul li:hover i {
+    transform: scale(0.9);
+    color: #fff;
+    cursor: pointer;
+}
+
+.credit a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    text-emphasis: bold;
+    
+  }
+
+  .credit{
+    text-align: center;
+    color: #05fc05;
+  }
+
